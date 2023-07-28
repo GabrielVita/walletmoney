@@ -1,8 +1,10 @@
+import { SearchForm } from "../SearchForm"
 import { PriceHighlight, TransactionsContainer, TransactionsTable } from "./styles"
 
 export function Historic(){
     return(
         <TransactionsContainer>
+            <SearchForm/>
             <TransactionsTable>
                 <tbody>
                     <tr>

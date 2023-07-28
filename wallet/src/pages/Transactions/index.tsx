@@ -7,7 +7,7 @@ export function Transaction(){
         <div>
             <Header/>
             <Summary/>
-
+        
             <Historic/>
 
         </div>
