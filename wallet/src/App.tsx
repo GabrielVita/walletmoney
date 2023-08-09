@@ -17,7 +17,7 @@ export function App() {
             <Transaction/>
           </TransactionsProvider>
         }/>
-        <Route path="/Empty" element={<Empty/>}/>
+        <Route path="/empty" element={<Empty/>}/>
       </Routes>
     </Router>
     </ThemeProvider>
